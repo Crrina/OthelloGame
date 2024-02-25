@@ -22,7 +22,7 @@ public class Server implements ChatServer, Runnable {
     /**
      * The name of the server, that is sent with the HELLO~ message.
      */
-    public static final String SERVER_NAME = "Othello server";
+    public static final String SERVER_NAME = "Crina and Aryan othello server";
     private final List<String> userNames = new ArrayList<>();
     private final List<String> queue = new ArrayList<>();
     private final Map<String, ClientHandler> users = new LinkedHashMap<>();
